@@ -8,7 +8,7 @@ from torch.utils.data import DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from diffusers import AutoencoderKL
 
-from unet import NCSN, UNetConfig
+from models.unet import NCSN, UNetConfig
 
 def annealed_Langevin_dynamics(scorenet, num_imgs, noise_dim, sigmas, T=100, eps=2e-5, device='cuda'):
     scorenet.eval()
