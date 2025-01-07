@@ -1,2 +1,2 @@
 # NoCaST
-A noise conditional score transformer that can generate animal face images
+A simple noise conditional score unet that can generate animal face images.
