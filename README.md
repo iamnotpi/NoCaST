@@ -4,3 +4,4 @@ A simple noise conditional score unet that can generate animal face images.
 - More experiment
 - Change to SDE-based NCSN
 - Project description
+- Add citation
